@@ -29,6 +29,7 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/numerology", numerologyRoutes);
+app.use("/api/kundli", kundliRoutes);
 app.use("/api/ai", aiKundliRoutes);
 
 app.use("/api/kundli-milan", kundliMilanRoutes);
